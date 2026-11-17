@@ -1,0 +1,20 @@
+{
+  "name": "riccardo-giovarelli/tictactoe-minimax",
+  "description": "A PHP implementation of the Minimax algorithm with Alpha-Beta Pruning for Tic-Tac-Toe.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5 || ^11.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
